@@ -132,3 +132,62 @@ header {
     margin-bottom: 25px;
 }
 /* Donate Section End */
+
+/* Plan Section Start */
+.donate-plan {
+    max-width: 1440px;
+    height: 600px;
+}
+
+.donate-plan-container {
+    width: 78%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plan-card-container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.plan-card {
+    height: 352px;
+    width: 360px;
+    padding: 60px 25px;
+    text-align: start;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    height: 50px;
+    width: 58px;
+    margin-bottom: 30px;
+}
+
+.plan-card h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.plan-card p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: auto;
+    color: #707070;
+}
+
+.plan-one {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.plan-two {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.plan-three {
+    background-color: rgba(255, 244, 214, 1);
+}
