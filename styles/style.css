@@ -10,6 +10,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -28,6 +30,17 @@
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   line-height: 20px;
+}
+
+.lobster-font {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
 }
 
 /* Common Class Start */
@@ -293,3 +306,36 @@ header {
     border:  2px solid #FF5959;
 }
 /* Get update section End */
+
+/* Footer section Start */
+footer {
+    max-width: 1440px;
+    height: 200px;
+    background-color: #121212;
+    color: #FF5959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content h4 {
+    font-size: 2.25rem;
+    letter-spacing: 0.5px;
+    line-height: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.footer-content p {
+    font-size: 0.8rem;
+    color: #FAFAFA;
+    margin-bottom: 15px;
+}
+
+.special {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    color: #FAFAFA;
+}
+/* Footer Section End */
